@@ -22,7 +22,7 @@ L’output del prezzo finale va messo fuori in forma umana (con massimo due deci
          document.getElementById("ticket").innerHTML= "il tuo biglietto costa " + prezzo + "€" ;
     }
 
-    if (anni > 64) {
+    else if (anni > 64) {
         
         prezzo -= prezzo * 0.4;
         document.getElementById("ticket").innerHTML= "il tuo biglietto costa " + prezzo + "€" ;
